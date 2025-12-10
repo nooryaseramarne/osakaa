@@ -69,3 +69,36 @@
      text-decoration: underline;
 }
 }
+.Portfolio h2{
+    font-size: 40px;
+    font-family: var(--font-family);
+    font-weight: 800;
+}
+.Portfolio .nav-tabs .nav-link.active {
+    color: var(--maincolor);
+border-color: transparent;
+}
+.Portfolio .nav-tabs{
+    border: transparent;
+}
+.Portfolio .nav-tabs .nav-link{
+    color: black;
+}
+
+.tab-pane {
+  min-height: auto ;
+  height: auto ;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+
+.tab-content > .active {
+  display: block;
+}
+.Testimonials img {
+    width: 95px;
+    height: 95px;
+    border-radius: 50%;
+    margin-top: -40px;
+}
