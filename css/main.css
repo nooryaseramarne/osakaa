@@ -1,0 +1,8 @@
+:root {
+    --maincolor: rgb(255, 32, 110);
+    --font-family: Open Sans;
+}
+
+.navbar-expand-lg .navbar-nav { 
+    color: var(--maincolor);
+}
