@@ -96,9 +96,51 @@ border-color: transparent;
 .tab-content > .active {
   display: block;
 }
+
 .Testimonials img {
     width: 95px;
     height: 95px;
     border-radius: 50%;
     margin-top: -40px;
+}
+
+.Testimonials h4 {
+    font-weight: 700;
+    margin-top: 15px;
+}
+
+.Testimonials .job-title {
+    color: gray;
+    margin-top: -5px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.Testimonials .testimonial-text {
+    width: 70%;
+    margin: 0 auto;
+    color: #555;
+    font-size: 17px;
+}
+
+.carousel-item {
+    padding: 40px 0;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+}
+
+.carousel-indicators .active {
+    background-color: black;
+}
+
+.Testimonials h2{
+font-family: var(--font-family);
+font-size: 40px;
+font-weight: 800;
+line-height: 48px;
+color: rgb(0, 0, 0);
 }
