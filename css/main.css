@@ -6,3 +6,34 @@
 .navbar-expand-lg .navbar-nav { 
     color: var(--maincolor);
 }
+.hero{
+    background-image: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family:Open Sans ;
+    margin-right: 
+}
+.hero span{
+    color: var(--maincolor);
+    margin-top: 10px;
+    font-size: 16px;
+}
+.hero h1{
+    font-size: 48px;
+}
+.hero p{
+    font-size: 16px;
+}
+.hero-content{
+    width: fit-content;
+    margin-left: 100px;
+}
+.hero .icons div {
+    width : 30px ;
+    height :30px ;
+    border: 1px solid #6c757d87 ;
+    transition: 1.2s;
+}
+.hero div :hover {
+   border: 1px solid #f0f1f187 ;
+}
